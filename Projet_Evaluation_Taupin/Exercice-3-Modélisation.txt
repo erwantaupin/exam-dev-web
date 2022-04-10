@@ -1,0 +1,19 @@
+- Un patient peut-il faire plusieurs consultes ?
+	oui il peux faire 1 ou une infinité de consultations.
+
+- Un médecin peut-il recevoir plusieurs patients ?
+	non il peux donnée plusieurs consultation mais ne peux en recevoir que un patient a la fois.
+
+- Si oui, en même temps ?
+	
+
+- Comment faire pour avoir 10 médicaments ?
+	2 possibilité le patient va voir une fois le medecin et ce dernier lui prescrit 10 medicament ou bien le patient va voir X medecin pour avoir c'est 10 medicament
+
+- Peut-on prescrire 10 médicaments pour une même consultation ?
+	oui
+
+- Est-ce que deux médecins peuvent prescrire le même médicament?
+	oui
+
+MLD du CD voir photo jointe.

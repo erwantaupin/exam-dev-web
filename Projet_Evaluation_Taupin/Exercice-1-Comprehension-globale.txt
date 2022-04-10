@@ -1,0 +1,22 @@
+Qu'est-ce que Client/Serveur(leur rapport et interaction entre les deux)?
+
+	
+
+Qu'est-ce que les differences entre Serveur Local et Serveur Distant(reflexion sur WAMP)?
+
+	La difference entre les deux sont notable sur le fait que le serveur local ce trouve sur la machine de creation de l'utilisation grace a WAMP(Microsoft), MAMP(Apple), LAMP (Linux)
+	où l'ont ne puissent pas ce rendre sur le serveur à distance, alors que les serveurs distance sont des machine dedier au traitement où des machines utilisateur qui permettent d'acceder au donnée par l'exterieur de la machine
+	via un lien HTTP.
+
+Quel sont les Differents types de language (Style, Balisage, Programation) ?
+
+	il y a Style( CSS ) , Balisage ( HTML, XML ) , Programation ( java, javascipt, python, php, C, C++, Perl, SQL, rubis)
+
+Quel sont le fonctionnement de ces differents languages ?
+
+	-CSS ( Cascading Style Sheets ) est un language de style permettant que modelisé sont site à partir de son squelette (language de balisage).
+
+	-HTML ( HyperText Markup Language ) ou XML( eXtensible Markup Language ) est un language de balisage permettant de construire le squelette d'un site.
+
+	-java, javascipt, python, php, C, C++, Perl, SQL, rubis (et bien d'autres encore) sont des languages qui serve à créer des programmes (POO et autre) lancé dans le site afin d'animé les dit site 
+	où de créer la liaisons entre le site et le serveurs.

@@ -1,0 +1,13 @@
+1- quel nom porte les carrés <Femme> et <Homme> ?
+	ce sont des Tables BDD.
+
+2-Comment s'appelle la forme <Semarie> ?
+	une relation.
+3-Quels cardinalités mettre dans le cas ou on n’accepte pas la polygamie?
+	<femme> 0,1 <semarie> 0,1 <Homme> la femme peux avoir 0 ou 1 seul marie et l'homme peux avoir que 0 ou 1 femme.
+
+4. Quels cardinalités mettre dans le cas ou seul la femme peut être polygame?
+	<femme> 0,n <semarie> 0,1 <Homme> la femme peux avoir 0 ou une infinité de marie et l'homme peux avoir que 0 ou 1 femme.
+
+5. Quels cardinalités mettre dans le cas ou les deux peuvent être polygame?
+	<femme> 0,n <semarie> 0,n <Homme> la femme peux avoir 0 ou une infinité de marie et l'homme peux avoir que 0 ou une infinité de femme.
