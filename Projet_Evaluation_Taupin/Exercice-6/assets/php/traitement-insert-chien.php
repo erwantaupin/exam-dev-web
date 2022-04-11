@@ -3,12 +3,6 @@
 $Name = $_POST['name'];
 $Age = $_POST['surname'];
 $Race = $_POST['mail'];
-// $Name2 = $_POST['name1'];
-// $Age2 = $_POST['surname1'];
-// $Race2 = $_POST['mail1'];
-// $Name3 = $_POST['name2'];
-// $Age3 = $_POST['surname2'];
-// $Race3 = $_POST['mail2'];
 
 if(isset($_POST['name'])){
     if(empty($Name)){
@@ -100,9 +94,5 @@ if(isset($_POST['name'])){
     $chien = new chien ($Name, $Age, $Race);
     $chien->insertbdd();
 
-
-    
-
-    // print_r($js);
     }
   }
