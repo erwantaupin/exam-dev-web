@@ -1,7 +1,7 @@
 <?php 
 require("db.php");
 
-$chien = ("SELECT * FROM chien 
+$chien = ("SELECT * FROM pet_exo 
       
     ");
 

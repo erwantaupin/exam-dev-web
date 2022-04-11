@@ -40,7 +40,7 @@ if(isset($_POST['name'])){
         protected $db;
         public function condb(){
           try {
-            $this->db = new PDO('mysql:host=localhost;dbname=examsurprise;charset=utf8mb4', 'root', '');
+            $this->db = new PDO('mysql:host=db5006773335.hosting-data.io;dbname=dbs5603922;charset=utf8mb4', 'dbu2228906', 'y93Vb7iW');
             $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
             $this->db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);  
           } catch (PDOException $e) {
@@ -84,7 +84,7 @@ if(isset($_POST['name'])){
       }
       public function insertbdd(){
         $this->condb();
-        $sqlRequest = "INSERT INTO chien (nom_chien, age_chien, race_chien)
+        $sqlRequest = "INSERT INTO pet_exo (nom_chien, age_chien, race_chien)
                         VALUES (:nom_chien, :age_chien, :race_chien);";
         $pdoStat = $this->db-> prepare($sqlRequest);
         $pdoStat->execute(Array(
@@ -93,6 +93,7 @@ if(isset($_POST['name'])){
         ':race_chien' => $this->race
         ));
       }
+      
     }
       
 

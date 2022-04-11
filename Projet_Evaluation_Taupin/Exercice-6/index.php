@@ -53,7 +53,7 @@
             <th>Race du chien</th>
         </tr>
         <tbody>
-        <?php foreach ($execute as $value){ ?>
+        <?php foreach ($chien as $value){ ?>
         <tr>
             <td><?php echo $value["id_chien"] ?></td>
             <td><?php echo $value["nom_chien"] ?></td>
